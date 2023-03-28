@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+    <style>
+        footer {
+            height: auto;
+            width: 100%;
+            background-color: #1f4985;
+        }
+
+        footer>div:nth-child(1) {
+            padding: 20px 45px;
+        }
+
+        footer>div>div {
+            /* border: 1px solid black; */
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        footer>div>div>div {
+            /* border: 1px solid white; */
+            height: auto;
+            width: auto;
+            padding: 10px;
+        }
+
+        footer>div>div>div>ul,
+        footer>div>div>div>ul>li>a {
+            color: white;
+            text-decoration: none;
+            list-style: none;
+            font-size: 15px;
+        }
+
+        footer>div>div>div>ul {
+            font-weight: bold;
+        }
+
+        footer>div>div>div>ul>li {
+            margin: 10px 0px 10px 0px;
+            font-weight: 100;
+        }
+
+        #social-hand {
+            display: flex;
+            color: white;
+            justify-content: flex-start;
+        }
+
+        #social-hand h3 {
+            font-size: 15px;
+        }
+
+        #social-hand>div:nth-child(1) {
+            flex-basis: 30%;
+        }
+
+        #discl {
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            background-color: #0a244a;
+            padding: 20px 0;
+        }
+
+        #discl>p:nth-child(1) {
+            text-decoration: underline;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #discl>p:last-child::before {
+            content: "";
+            display: block;
+            border-top: 1px solid gray;
+            margin: 15px 0;
+        }
+
+        #social-hand img {
+            width: 150px;
+        }
+
+        .fa-facebook-square,
+        .fa-twitter,
+        .fa-youtube {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <ul>
+                        PRODUCT CATEGORIES
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">DSLR Cameras</a></li>
+                        <li><a href="#">Televisions</a></li>
+                        <li><a href="#">Air conditioners</a></li>
+                        <li><a href="#">Refrigerators</a></li>
+                        <li><a href="#">Kitchen Applinces</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Personal Care and & Grooming</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        SITE INFO
+                        <li><a href="#">About Reliance Digital</a></li>
+                        <li><a href="#">resQ Services</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Corporate Enquires</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        RESOURCE CENTRE
+                        <li><a href="#">Product Reviews</a></li>
+                        <li><a href="#">Buying Guidesa</li>
+                        <li><a href="#">How Tos</a></li>
+                        <li><a href="#">Featured Stories</a></li>
+                        <li><a href="#">Events and Happenings</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        POLICIES
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Cancellation and return policy</a></li>
+                        <li><a href="#">Pricing and payment policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">E-waste policy</a></li>
+                        <li><a href="#">EMI and additional cashback T&C</a></li>
+                        <li><a href="#">RelianceOne Loyalty Program T&C</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="social-hand">
+                <div>
+                    <h3>FOLLOW US</h3>
+                    <!-- <a href="http://www.facebook.com/pages/Reliance-Digital/123437217685421"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="http://www.twitter.com/reliancedigital"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.youtube.com/reliancedigital"><i class="fa-brands fa-youtube"></i></a> -->
+                </div>
+                <div>
+                    <h3>EXPERIENCE RELIANCE DIGITAL APP ON MOBILE</h3>
+                    <a href="https://play.google.com/store/apps/details?id=in.digital.reliance"><img
+                            src="https://www.reliancedigital.in/build/client/images/google_play_store.png"></a>
+                    <a href="https://apps.apple.com/in/app/reliance-digital-shopping-app/id1513379107"><img
+                            src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Disclamer porton -->
+        <div id="discl">
+            <p>Disclaimer</p>
+            <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive
+                of taxes. Product colours & images are only for illustration and they may not exactly match with the
+                actual product. Product specs are subject to change & may vary from actual product. While every care is
+                taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+            <p>&copy 2022 Reliance Digital. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
