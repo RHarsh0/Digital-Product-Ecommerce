@@ -1,0 +1,85 @@
+/* Products part */
+
+.container{
+    display: flex;
+  
+}
+
+.filterbox{
+    width: 22%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-left: 10px;
+}
+.refined p{
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.hp-container{
+    width: 78%;
+}
+
+.head{
+    border-bottom: 1px solid #919191;
+    margin: 0 16px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.head>div{
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+    font-size: 16px;
+}
+.head>div p:hover{
+    color: #919191;
+    cursor: pointer;
+}
+.head p{
+    margin: 0;
+}
+.priceInp button{
+    color: white;
+    background-color: #003380;
+    border: none;
+    height: 30px;
+    width: 40px;
+}
+.priceInp input{
+    border:2px solid  #003380 ;
+}
+.priceInp p{
+    color: #003380;
+}
+.products{
+    margin: 0px 0px 45px;
+    padding: 20px 10px 0px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    grid-gap: 20px; 
+    justify-content: center;
+    height: 400px;
+
+}
+.divclass{
+   
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.divclass:hover .name{
+    color: red;
+}
+.divclass:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.name{
+    color: #003380;
+}
+.addtocart{
+    width:80%;
+    height: 35px;
+}
