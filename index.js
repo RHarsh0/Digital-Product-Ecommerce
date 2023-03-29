@@ -19,6 +19,8 @@ sliderLink1.forEach(function (el, indx) {
   document.querySelector(".slide-indicator").append(span);
   slideImage.append(image);
 });
+
+
 //Function for change image on click;
 function imageChangeFun(indx, span, slideImage) {
   let pos = indx * -100 + "%";
@@ -30,9 +32,14 @@ function imageChangeFun(indx, span, slideImage) {
   span.setAttribute("class", "activeBtn");
   slideImage.style.transform = "translateX(" + pos + ")";
 }
+
+
+
 //Image slider arrow button function;
 setInterval(rightArrowAutoSlide, 3000);
 let slidingBTN = document.querySelectorAll(".arrowbtn")[0].children;
+
+
 //Left arrow
 slidingBTN[0].addEventListener("click", function () {
   slider1--;
@@ -48,6 +55,8 @@ slidingBTN[0].addEventListener("click", function () {
   slideInd[slider1].setAttribute("class", "activeBtn");
   slideImage.style.transform = "translateX(" + pos + ")";
 });
+
+
 //Right arrow
 slidingBTN[1].addEventListener("click", function () {
   rightArrowAutoSlide();
@@ -66,6 +75,7 @@ function rightArrowAutoSlide() {
   slideInd[slider1].setAttribute("class", "activeBtn");
   slideImage.style.transform = "translateX(" + pos + ")";
 }
+
 
 //Script for laptop sliding boxs;
 let laptopLink = [
@@ -165,6 +175,8 @@ laptopLink.forEach(function (el, indx) {
   div.append(image, name, price, maxPrice, saving, offer);
   document.querySelector(".slide-product").append(div);
 });
+
+
 //Function for sliding buttons of laptop
 slidingBTN = document.querySelectorAll(".arrowbtn")[1].children;
 //Left Arrow
@@ -189,6 +201,7 @@ slidingBTN[1].addEventListener("click", function () {
 });
 
 // ------------------------------------------------------------
+
 // Third arrow function
 let thirdProduct = [
   {
@@ -343,6 +356,8 @@ slidingBTN[1].addEventListener("click", function () {
   let slideDiv = document.querySelectorAll(".slide-product")[1];
   slideDiv.style.transform = "translateX(" + pos + ")";
 });
+
+
 // ________________________________________________________________
 // function for second image Slider
 //Array for image slider image link;
@@ -373,6 +388,8 @@ sliderLink2.forEach(function (el, indx) {
   document.querySelectorAll(".slide-indicator")[1].append(span);
   slideImage.append(image);
 });
+
+
 
 //Image slider arrow button function;
 setInterval(rightArrowAutoSlide_2, 3000);
@@ -412,6 +429,7 @@ function rightArrowAutoSlide_2() {
 }
 // _______________________________________________________
 // Product Catagory section
+
 let fourProduct = [
   {
     imgUrl:
@@ -460,6 +478,8 @@ fourProduct.forEach(function (el) {
   div.append(image, name);
   document.querySelectorAll(".slide-product")[2].append(div);
 });
+
+
 //Function for sliding buttons of product catagory
 slidingBTN = document.querySelectorAll(".arrowbtn")[4].children;
 //Left Arrow
@@ -484,6 +504,8 @@ slidingBTN[1].addEventListener("click", function () {
 });
 // _______________________________________________
 // five arrow function
+
+
 let fiveProduct = [
   {
     imgUrl:
