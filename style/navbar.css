@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    margin: 0;
+  background-color: #e42529;
+  color: white;
+}
+.firstnav{
+    display: flex;
+  justify-content: end;
+  font-size: 17px;
+  margin-right: 15px;
+  font-weight: 700;
+}
+.firstnav a{
+    font-size: 17px;
+    color: white;
+}
+#secondnav {
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+#cartlogin{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 17px;
+    margin-right: 20px;
+    margin-top: 7px;
+    /* font-weight: 700; */
+    /* width: 25%; */
+    /* padding-left: 1 rem; */
+}
+#cartlogin a{
+    color: white;
+    text-decoration: none;
+}
+.pinnumber{
+  margin-right: 5px;
+  
+  text-align: justify;
+}
+
+#logo{
+    margin-left: 2rem;
+    width: 20%;
+}
+#logo img{
+    width: 60%;
+    padding-bottom: 0.7rem;
+    margin-top: 5px;
+}
+#searchbar {
+    background-color: white;
+    height: 2.3rem;
+    border-radius: 25px;
+    margin-right: 7rem;
+    width: 37%;
+    margin-bottom: 15px;
+  }
+  #searchbar button {
+    background-color: white;
+    border: 0px solid white;
+    padding-top: 5px;
+    color: gray;
+    font-size: 20px;
+    width: 2rem;
+    border-radius: 50px;
+  }
+  #searchbar input {
+    width: 85%;
+    padding: 0px 9px;
+    margin-left: 1rem;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    height: 30px;
+    color: gray;
+  }  
+  #thirdnav{
+    display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #003380;
+  padding: 10px 0;
+  margin-bottom: 0
+  }
+  #thirdnav a{
+    text-decoration: none;
+    color: white;
+  }
