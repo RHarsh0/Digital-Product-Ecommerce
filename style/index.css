@@ -1,0 +1,254 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+  }
+  
+  .slides-container {
+      transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+      height: 500px;
+      position: relative;
+      /* border: 8px solid hotpink;   */
+  }
+
+  .slide-image {
+    width: 100%;
+    height: 65%;
+    position: absolute;
+}
+
+.slide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.next-btn, .prev-btn {
+    background: grey;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: transparent;
+    z-index: 100;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.next-btn:hover, .prev-btn:hover {
+    color: grey ;
+}
+
+.prev-btn {
+    left: 0;
+    top: 150px;
+}
+
+.next-btn {
+    right: 0;
+    top: 150px;
+}
+
+.navigation-dots {
+    z-index: 4000;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 0;
+    position: absolute;
+    top: 450px;
+    left: 40%;
+}
+
+.single-dot {
+    background-color: #aaacb2;
+    height: 8px;
+    width: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 0 11px;
+   
+}
+
+.single-dot.active {
+    background-color: #3f3f3f;
+}
+
+/* 1st Integration */
+#staycool{
+    justify-content: space-around;
+    margin-top: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+}
+
+#staycool>img{
+    width: 22%;
+    margin-top: 18px;
+    margin-left: -2%;
+    margin-bottom: 32px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: Roboto,"system-ui",sans-serif;
+    margin-top: 10px;
+    color: #333333;
+    margin-left: 2%;
+}
+.pro-name {
+    margin-top: 50px;
+    margin-bottom: -3px;
+}
+.title3 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Roboto,"system-ui",sans-serif;
+    top: 50%;
+    color: #333333;
+    margin-left: 2%;
+    display: block;
+}
+
+/* 2nd Integration */
+
+#latesttechnology{
+    justify-content: space-around;
+    margin-top: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+}
+
+#latesttechnology>img{
+    width: 22%;
+    margin-top: 18px;
+    margin-left: -2%;
+}
+
+.title2 > span{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: Roboto,"system-ui",sans-serif;
+    margin-top: 10px;
+    color: #333333;
+    margin-left: 2%;
+}
+
+/* 3rd Intgration */
+
+#iphone13{
+    justify-content: space-around;
+    margin-top: 45px; 
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+}
+
+#iphone13 > img{
+    width: 22%;
+    margin-top: 18px;
+    margin-left: -2%;
+}
+/* ____________________________________________________ */
+
+
+/* _______________________________________________________ */
+ /* 5th Integration -> Slider  */
+.pro {
+    margin-top: 4%;
+    margin-bottom: -2%;
+}
+
+.h3-sli {
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: Roboto,"system-ui",sans-serif;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+.slide > h3 {
+    color: #333333;
+}
+.slide > h3:hover {
+    color: #28508a;
+}
+
+
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+   height: 300px;
+}
+
+.slide img{
+    display: inline-block;
+   width:110%;
+   height:110%;
+   object-fit: contain;
+   object-position: center;
+   transform: translateY(10%);
+}
+.caption{
+    box-sizing: border-box;
+    text-align: center;
+    color: #1f4985;
+    font-weight: bold;
+    font-weight: 400;
+    margin-top: 16px;
+    font-size: 26px;
+}
+   
+
+.arrow{
+    cursor: pointer;
+    position:absolute;
+    top: calc(50% - 33px) ;
+    color: black;
+    background-color: none;
+    padding: 42px 18px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px;
+}
+.slide{
+    /* display: none; */
+    width: 200px;
+    height: 224px;
+    margin: 10px;
+}
+
+
+.view {
+    font-size: 22px;
+    padding: 13px 40px;
+    background-color: #003380;
+    border-radius: 26px;
+    display: inline-block;
+    margin-top: 4.5%;
+    margin-left: 45%;
+}
+.view:hover {
+    background-color: white;
+    color: #003380;
+    border: 1px solid #003380;
+}
