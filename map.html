@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Futuredigital</title>
-    <link rel="stylesheet" href="./style/index.css">
-    <link rel="stylesheet" href="./style/navbar.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
-    
+    <link rel="stylesheet" href="./style/map.css">
+<link rel="stylesheet" href="./style/index.css">
+<link rel="stylesheet" href="./style/navbar.css">
 </head>
 <body>
     <div id="navbar">
         <div class="firstnav">
-            <a href="./map.html">Find a store </a>
+            <a href="">Find a store </a>
             <a href=""><span> | </span>Admin </a>
             <a href=""><span> | </span> Contact us </a>
         </div>
@@ -123,6 +122,38 @@
    
 
    </div>
+    <div id="main-cont">
+        <!--Div for First image -->
+        <div>
+          <img
+            src="https://www.reliancedigital.in/medias/DIS-Carousel-Banner-20-07-2022.jpg?context=bWFzdGVyfGltYWdlc3wxOTc5OTF8aW1hZ2UvanBlZ3xpbWFnZXMvaDM3L2hiNy85ODYzOTQ0NDA1MDIyLmpwZ3xjOWIxMDA1NDBmZTMyMDIyNjYxMjdiOTc1ZDA1M2M4NDEwYWZjMDA1NzU0YjBkZTQwNDc3MjQwMWM5ZjU4ZGJl"
+          />
+        </div>
+        <!-- Div for image slider -->
+        <div class="slide-box">
+          <div class="slide-img">
+            <!-- All sliding image will append here -->
+          </div>
+          <div class="slide-indicator"></div>
+          <div class="arrowbtn first_arrow">
+            <button><</button>
+            <button>></button>
+          </div>
+        </div>
+    </div>
+    <div id="storefinding">
+        <div class="nksha" >
+            <div class="type" >
+               <h2>Explore <span id="redc">Futuredigital</span> Near Your Area</h2>
+               <input type="text" placeholder="Enter City Name Here" name="" id="cityname" />
+           <button id="ms"><i class="fa fa-search"></i>Search</button></div>
+       <div>
+           <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://putlocker-is.org"></a>
+       </div>
+      </div>
+    </div>
+      
 </body>
-<script src="./script/navbar.js"></script>
+<script src="./script/map.js"></script>
 </html>
+

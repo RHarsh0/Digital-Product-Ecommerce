@@ -1,0 +1,16 @@
+#storefinding{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid red;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+#gmap_canvas{
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+/* .nksha{
+    width: 100%;
+} */
