@@ -1,0 +1,397 @@
+
+        /* Style for upper nav */
+        /* div#upper_nav {
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+            background-color: #e4252a;
+            position: sticky;
+            display: flex;
+            justify-content: flex-end;
+          } */
+          /* div#upper_nav > a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+            font-size: 1.1vw;
+            font-weight: bold;
+          }
+          div#upper_nav > a:nth-child(2)::before {
+            content: "";
+            border: 1px solid white;
+            margin-right: 5px;
+          }
+          div#upper_nav > a:nth-child(2)::after {
+            content: "";
+            border: 1px solid white;
+            margin-left: 5px;
+          } */
+
+
+
+          /* main page style */
+          #main-cont > div:nth-child(1) > img {
+            width: 100%;
+          }
+          /* Style for sliding images */
+          .slide-box {
+            width: 100%;
+            height: auto;
+            /* border: 1px solid yellow; */
+            
+            overflow: hidden;
+          }
+          .slide-img {
+            width: 100%;
+            display: inline-flex;
+            transition: 0.7s;
+          }
+          .slide-img > img {
+            width: 100%;
+          }
+          /* Style for rounded buttons for image change */
+          .slide-indicator {
+            position: absolute;
+            left: 50%;
+            margin-top: -30px;
+            transform: translateX(-50%);
+          }
+          .slide-indicator > span {
+            display: inline-block;
+            width: 0.8vw;
+            height: 0.8vw;
+            border-radius: 50%;
+            background-color: rgba(128, 128, 128, 0.526);
+            cursor: pointer;
+            margin: auto 2px auto 2px;
+          }
+          .activeBtn {
+            background-color: black !important;
+          }
+          .arrowbtn > button {
+            font-size: 3vw;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+          }
+          .first_arrow > button {
+            position: absolute;
+            margin-top: -12%;
+          }
+          .arrowbtn > button:hover {
+            color: grey;
+          }
+          .first_arrow > button:nth-child(1) {
+            left: 0vw;
+          }
+          .first_arrow > button:nth-child(2) {
+            right: 0vw;
+          }
+          /* Style for product heading Sections */
+          .product-sec {
+            margin: 25px auto;
+            padding: 0px 20px;
+           
+          }
+          .product-sec > span:nth-child(1)::after {
+            content: "";
+            border: 1px solid black;
+            margin: 0 5px;
+          }
+          .product-sec > span:nth-child(1) {
+            font-size: 24px;
+          }
+          .product-sec > span:nth-child(2) {
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          .product-sec > span:nth-child(2) > a {
+            text-decoration: none;
+            color: #003380;
+          }
+          /* Style for product box */
+          .product-box {
+            /* height: 300px; */
+            height: auto;
+            width: 90%;
+            overflow: hidden;
+            margin: auto;
+          }
+          .slide-product {
+            height: 100%;
+            width: auto;
+            display: inline-flex;
+            transition: 0.7s;
+           
+          }
+          .slide-product > div {
+            height: 100%;
+            width: calc(90vw / 5);
+            padding: 10px;
+            /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+          }
+          .slide-product > div > img {
+            width: 100%;
+          }
+          .slide-product > div > p:nth-last-child(1) {
+            box-sizing: border-box;
+            height: fit-content;
+            width: fit-content;
+            border: 1px solid green;
+            padding: 1px 4px;
+            background-color: rgba(0, 128, 0, 0.169);
+            border-radius: 20px;
+            color: green;
+            text-transform: uppercase;
+            font-size: 10px;
+          }
+          .slide-product > div > p {
+            color: grey;
+            font-size: 13px;
+            margin: 5px 0;
+          }
+          .slide-product > div > p.name_product {
+            color: #003380;
+            margin: 0 auto 15px auto;
+            font-size: 15px;
+            /* for text */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2; /*number of lines to show*/
+            -webkit-box-orient: vertical;
+          }
+          span.price_tag {
+            font-size: 22px;
+            color: black;
+          }
+          span.price_tag::before {
+            content: "₹";
+          }
+          .second_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .second_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .second_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for grid products */
+          .grid {
+            height: auto;
+            width: 97%;
+            margin: auto;
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-rows: repeat(1, auto);
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+          }
+          .grid > div > img {
+            width: 100%;
+          }
+          /* Style for third arrow buttons */
+          .third_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .third_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .third_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for product catagory section */
+          .product_catagory {
+            width: 100%;
+            height: auto;
+            padding: 20px 0;
+            background-color: #f7f7f7;
+            text-align: center;
+          }
+          .slide-product > div > p.name_catagory {
+            color: black;
+            font-size: 1.4vw;
+            background-color: transparent;
+            border: none;
+            border-radius: 0;
+            text-align: center;
+            margin: auto;
+          }
+          .product_catagory > button {
+            display: block;
+            margin: auto;
+            height: 40px;
+            width: 100px;
+            border-radius: 20px;
+            background-color: #003380;
+            color: white;
+            border: none;
+          }
+          .product_catagory > button:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #003380;
+          }
+          /* Style for four arrow buttons */
+          .four_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .four_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .four_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for brand promise */
+          .brand_promise {
+            width: 100%;
+            padding: 20px 0;
+          }
+          .brand_promise > h3 {
+            color: #003380;
+            text-align: center;
+            margin: 25px 0;
+          }
+          div.brand_promise > div.grid > div > img {
+            /* border: 1px solid black; */
+            width: min-content;
+            margin: auto;
+            display: block;
+          }
+          div.brand_promise > div.grid > div {
+            text-align: center;
+            text-transform: uppercase;
+            background-color: #f7f7f7;
+            border-radius: 7px;
+            border: 1px solid grey;
+          }
+          div.brand_promise > div.grid > div > p:nth-child(2) {
+            font-weight: bold;
+            color: #003380;
+          }
+          div.brand_promise > div.grid > div > p:nth-last-of-type(1) {
+            color: grey;
+            font-size: 11px;
+          }
+          /* Style for five arrow buttons */
+          .five_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .five_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .five_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for six arrow buttons */
+          .six_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .six_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .six_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for seven arrow buttons */
+          .seven_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .seven_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .seven_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for eight arrow buttons */
+          .eight_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .eight_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .eight_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for nine arrow buttons */
+          .nine_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .nine_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .nine_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for ten arrow buttons */
+          .ten_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .ten_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .ten_arrow > button:nth-child(2) {
+            right: 2%;
+          }
+          /* Style for eleven arrow buttons */
+          .eleven_arrow > button {
+            position: absolute;
+            margin-top: -31vh;
+            height: 4.5vw;
+            width: 2.5vw;
+            box-shadow: 0px 0px 10px -4px grey;
+            /* border: 1px solid black; */
+          }
+          .eleven_arrow > button:nth-child(1) {
+            left: 2%;
+          }
+          .eleven_arrow > button:nth-child(2) {
+            right: 2%;
+          }
