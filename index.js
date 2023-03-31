@@ -171,10 +171,23 @@ laptopLink.forEach(function (el, indx) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+  let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  // div.setAttribute("id","s1");
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelector(".slide-product").append(div);
 });
+
+
+// let s1 = document.querySelectorAll("#s1");
+
+// s1.forEach((el)=>{
+//   el.addEventListener("click",()=>{
+// window.location.href = "./products.html";
+// window.location.replace("./products.html");
+// })
+// })
 
 
 //Function for sliding buttons of laptop
@@ -329,8 +342,11 @@ thirdProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
+  
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[1].append(div);
 });
 //Function for sliding buttons of laptop
@@ -615,8 +631,10 @@ fiveProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[3].append(div);
 });
 //Function for sliding buttons of laptop
@@ -744,8 +762,10 @@ sixProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[4].append(div);
 });
 //Function for sliding buttons
@@ -878,8 +898,10 @@ sevenProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+  let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[5].append(div);
 });
 //Function for sliding buttons
@@ -1012,8 +1034,10 @@ eightProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[6].append(div);
 });
 //Function for sliding buttons of laptop
@@ -1135,8 +1159,10 @@ nineProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[7].append(div);
 });
 //Function for sliding buttons of laptop
@@ -1272,8 +1298,10 @@ tenProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[8].append(div);
 });
 //Function for sliding buttons of laptop
@@ -1410,8 +1438,10 @@ elevenProduct.forEach(function (el) {
     ")";
   let offer = document.createElement("p");
   offer.innerText = "offers available";
+    let but = document.createElement("button")
+  but.innerHTML = "<a href='./products.html'>Purchase</a>";
   let div = document.createElement("div");
-  div.append(image, name, price, maxPrice, saving, offer);
+  div.append(image, name, price, maxPrice, saving, offer,but);
   document.querySelectorAll(".slide-product")[9].append(div);
 });
 //Function for sliding buttons of laptop
