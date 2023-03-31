@@ -1,12 +1,15 @@
 let API = "https://63c66f314ebaa8028545abad.mockapi.io/device/"
 
+
+
 fetch(API)
 	.then((response)=>{
         return response.json()
     })   
 	.then((data) =>{
-        console.log(data)
+         console.log(data)
         showdata(data)
+       
         
     })
 	// .catch(err => console.log(err));
@@ -14,7 +17,8 @@ fetch(API)
 let cartdata = JSON.parse(localStorage.getItem("cart")) || []    
 
 function showdata(data){
-      
+    document.querySelector(".products").innerHTML="";  
+
     data.forEach(element => {
 
      let div = document.createElement("div")
@@ -36,9 +40,11 @@ function showdata(data){
      btn.innerText = "Add to Cart";
      btn.classList.add("addtocart")
 
+
      div.append(img,name,price,btn)
 
      document.querySelector(".products").append(div)
      });
     
     }
+
