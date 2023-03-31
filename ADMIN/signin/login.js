@@ -8,18 +8,23 @@ let direct = document.createElement("a");
 login.addEventListener("click",function(){
     
     flg = true
-    arr.forEach(element => {
-        if(mail.value==element.mailob && pass.value == element.passob){
-            flg = false;
-             alert("sucessful");
-             let info = {mail:element.mailob,pass:element.passob,nameob:element.nameob}
-             admininfo.push(info);
-             localStorage.setItem("info",JSON.stringify(admininfo));
-             window.location = "../admin.html"
-        }
+    // arr.forEach(element => {
+    //     if(mail.value==element.mailob && pass.value == element.passob){
+    //         flg = false;
+    //          alert("sucessful");
+    //          let info = {mail:element.mailob,pass:element.passob,nameob:element.nameob}
+    //          admininfo.push(info);
+    //          localStorage.setItem("info",JSON.stringify(admininfo));
+    //          window.location = "../admin.html"
+    //     }
        
          
-    });
+    // });
+    if(mail.value == "admin" && pass.value=="admin"){
+        alert("Successful");
+        window.location = "../admin.html";
+        flg = false;
+    }
     if(flg)
      alert("Intruder");
 })

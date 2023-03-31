@@ -17,7 +17,7 @@ nav{
 nav>div:first-child{
     width:200px;
     height: 200px;
-    background-color: black;
+    background-color: white;
     border-radius: 20px;
     position:relative;
     margin-top: 20px;
@@ -101,21 +101,26 @@ main>div>div:nth-child(2)>div>img{
     display: flex;
     width: 1200px;
     margin-right: 300px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-evenly;
 }
 
 
 /* ***********************************table bod****************************************** */
-
-
+#admin_filter{
+    /* border: 1px solid saddlebrown; */
+    margin-top: 50px;
+}
+#filter div{
+    margin: 20px;
+}
 #table{
     height: 400px;
     width: max-content;
     overflow-y: scroll;
     margin-top: 300px;
     background-color: black;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 table{
@@ -136,4 +141,5 @@ th{
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* -----------------------------------body ends------------------------------------------ */

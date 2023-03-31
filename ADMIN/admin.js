@@ -91,24 +91,24 @@ function disp(data){
 }
 // console.log(admininfo[0]);
 
-if(admininfo.length!==0){
-let inner = `<div>
-<h2>${admininfo[0].nameob}</a></h2>
-<button id="logout"><h2>Logout </h2></button>
-</div>`
+// if(admininfo.length!==0){
+// let inner = `<div>
+// <h2>${admin}</a></h2>
+// <button id="logout"><h2>Logout </h2></button>
+// </div>`
 
-nav.innerHTML = inner;
-}
-let logout = document.getElementById("logout");
-logout.addEventListener("click",function(){
-    admininfo = admininfo.filter((el,ind)=>{
-        if(admininfo.length!==0){
-            return false;
-        }
-    })
-    localStorage.setItem("info",JSON.stringify(admininfo));
-     window.location="signin/signin.html"
-})
+// nav.innerHTML = inner;
+// }
+// let logout = document.getElementById("logout");
+// logout.addEventListener("click",function(){
+//     admininfo = admininfo.filter((el,ind)=>{
+//         if(admininfo.length!==0){
+//             return false;
+//         }
+//     })
+//     localStorage.setItem("info",JSON.stringify(admininfo));
+//      window.location="signin/signin.html"
+// })
 
 function fil(data){
 
