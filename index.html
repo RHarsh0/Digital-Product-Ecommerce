@@ -2,59 +2,136 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <title>Futuredigital</title>
-  <link rel="stylesheet" href="./style/index.css">
-  <link rel="stylesheet" href="./style/navbar.css">
-  <link rel="stylesheet" href="./style/footer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Futuredigital</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
 
-  <link rel="icon" href="/favicon.icog" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    <link rel="icon" href="/favicon.icog" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
 
 
 </head>
 
 <body>
-  <div id="navbar">
-    <div class="firstnav">
-      <a href="">Find a store </a>
-      <a href=""><span> | </span>Admin </a>
-      <a href=""><span> | </span> Contact us </a>
-    </div>
-    <div id="secondnav">
-      <div id="logo"><img src="./image/futuredigital.png" alt=""></div>
-      <div id="searchbar">
-        <input type="text" placeholder="Find your favourite products">
-        <button>
-          <i class="fa fa-search"></i>
-        </button>
-      </div>
-      <div>
-        <div id="cartlogin">
-          <div class="pinnumber">Select your Pin Code</div>
-          <div>| <i class="fa fa-shopping-cart header_maininfo_list_item_icon"></i> <span>Cart</span> </div>
-          <div>| <i class="fa fa-user header__maininfo__list__item__icon"></i> <span><a
-                href="./login.html">Login</a></span> </div>
+    <div id="navbar">
+        <div class="firstnav">
+
+            <a href="./map.html">Find a store </a>
+             <a href="ADMIN/signin/signin.html"><span> | </span>Admin </a>
+
+            <a href=""><span> | </span> Contact us </a>
         </div>
-      </div>
+        <div id="secondnav">
+            <div id="logo"><img src="./image/futuredigital.png" alt=""></div>
+            <div id="searchbar">
+                <input type="text" placeholder="Find your favourite products">
+                <button>
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div>
+                <div id="cartlogin">
+                    <div class="pinnumber">Select your Pin Code</div>
+                    <div>| <i class="fa fa-shopping-cart header_maininfo_list_item_icon"></i> <span>Cart</span> </div>
+                    <div>|<a href="signup/signup.html"> <i class="fa fa-user header__maininfo__list__item__icon"></i> <span>Login</span> </a></div>
+                </div>
+            </div>
+
+        </div>
+        <div id="thirdnav">
+            <div><a href="">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">AUDIO</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></div>
+        </div>
+    </div>
+
+    <!-- hamberger menu -->
+    <div id="mobilenav">
+<div id="hamburgerbutton">
+    <div id="navigation">
+        <div id="menuk" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="navk" id="navk">
+            <li><a href="">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">AUDIO</a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></li>
+        </ul>
 
     </div>
-    <div id="thirdnav">
-      <div><a href="">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></div>
-      <div><a href="">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></div>
-      <div> <a href="">AUDIO</a><i class="fa fa-angle-down ml__4"></i></div>
-      <div> <a href="">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></div>
-      <div><a href="">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></div>
-      <div> <a href="">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></div>
-      <div> <a href="">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></div>
-      <div><a href="">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></div>
-      <div><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></div>
+    <div id="mobilelogok"><img src="./image/futuredigital.png" alt=""></div>
+    <div><i id="cartlogo" class="fa fa-shopping-cart header_maininfo_list_item_icon"></i> <span></span> </div>
+    <div><i id="loginlogo" class="fa fa-user header__maininfo__list__item__icon"></i> <span></span> </div>
+</div>
+<div id="mobilesearchbar">
+    <input type="text" placeholder="Find your favourite products">
+    <button>
+        <i class="fa fa-search"></i>
+    </button>
+</div>
     </div>
-  </div>
+   <div id="foronlycolor"></div>
+   <!-- drop down menu -->
+   <div class="dropdownMenu">
+    <div class="dropdownmobile"><a href="">Smartphone</a>
+        <br>
+        <br>
+        <a href=""> Smartwatches</a>
+        <br>
+        <br>
+        <a href="">Accessories</a>
+        <Br>
+            <br>
+        <a href="">Tablet Accessories</a>
+        <br>
+        <a href="">Mobile Accessories</a>
+        <br>
+        <a href="">Memory card</a>
+        <br>
+        <a href="">Charger cord</a>
+</div>
+    <div>
+        <a href="">Headphones</a>
+        <br>
+<br>
+        <a href="">Tablet and e-reader</a>
+        <br>
+
+        <a href="">Everyday use Tablet below 15000</a>
+        <br>
+        <a href="">Premium Tablet</a>
+        <br>
+        <br>
+        <a href="">Power Bank</a>
+    </div>
+    <div>
+       <img src="./image/mobiledropdownmenu.png" alt="">
+    </div>
+   
+
+   </div>
+
+
 
 
   <div id="main-cont">
@@ -70,9 +147,8 @@
       </div>
       <div class="slide-indicator"></div>
       <div class="arrowbtn first_arrow">
-        <button>
-          << /button>
-            <button>></button>
+        <button><</button>
+        <button>></button>
       </div>
     </div>
     <!-- End of div image slider -->
@@ -88,8 +164,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn second_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -132,8 +207,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn third_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -187,9 +261,8 @@
       </div>
       <div class="slide-indicator"></div>
       <div class="arrowbtn first_arrow">
-        <button>
-          << /button>
-            <button>></button>
+        <button><</button>
+        <button>></button>
       </div>
     </div>
     <!-- End of div image slider -->
@@ -203,9 +276,8 @@
           <!-- All sliding Div will append here -->
         </div>
         <div class="arrowbtn four_arrow">
-          <button>
-            << /button>
-              <button>></button>
+          <button><</button>
+          <button>></button>
         </div>
       </div>
       <!-- End of products list -->
@@ -255,8 +327,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn five_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -273,8 +344,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn six_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -291,9 +361,8 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn seven_arrow">
-        <button>
-          << /button>
-            <button>></button>
+        <button><</button>
+        <button>></button>
       </div>
     </div>
     <!-- End of products list -->
@@ -309,8 +378,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn eight_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -327,8 +395,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn nine_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -345,8 +412,7 @@
         <!-- All sliding Div will append here -->
       </div>
       <div class="arrowbtn ten_arrow">
-        <button>
-          << /button>
+        <button><</button>
             <button>></button>
       </div>
     </div>
@@ -364,7 +430,7 @@
       </div>
       <div class="arrowbtn eleven_arrow">
         <button>
-          << /button>
+          <</button>
             <button>></button>
       </div>
     </div>
@@ -455,6 +521,8 @@
 
 </body>
 
-<script src="./index.js"></script>
-
 </html>
+          <script src="./script/navbar.js"></script>
+<script src="./index.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+
