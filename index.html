@@ -9,11 +9,16 @@
     <title>Futuredigital</title>
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/navbar.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    
+
     <link rel="stylesheet" href="./style/footer.css">
 
     <link rel="icon" href="/favicon.icog" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+    
+
 
 
 </head>
@@ -21,8 +26,10 @@
 <body>
     <div id="navbar">
         <div class="firstnav">
-            <a href="">Find a store </a>
-            <a href="ADMIN/signin/signin.html"><span> | </span>Admin </a>
+
+            <a href="./map.html">Find a store </a>
+             <a href="ADMIN/signin/signin.html"><span> | </span>Admin </a>
+
             <a href=""><span> | </span> Contact us </a>
         </div>
         <div id="secondnav">
@@ -54,6 +61,82 @@
             <div><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></div>
         </div>
     </div>
+
+    <!-- hamberger menu -->
+    <div id="mobilenav">
+<div id="hamburgerbutton">
+    <div id="navigation">
+        <div id="menuk" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="navk" id="navk">
+            <li><a href="">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">AUDIO</a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></li>
+            <li><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></li>
+        </ul>
+
+    </div>
+    <div id="mobilelogok"><img src="./image/futuredigital.png" alt=""></div>
+    <div><i id="cartlogo" class="fa fa-shopping-cart header_maininfo_list_item_icon"></i> <span></span> </div>
+    <div><i id="loginlogo" class="fa fa-user header__maininfo__list__item__icon"></i> <span></span> </div>
+</div>
+<div id="mobilesearchbar">
+    <input type="text" placeholder="Find your favourite products">
+    <button>
+        <i class="fa fa-search"></i>
+    </button>
+</div>
+    </div>
+   <div id="foronlycolor"></div>
+   <!-- drop down menu -->
+   <div class="dropdownMenu">
+    <div class="dropdownmobile"><a href="">Smartphone</a>
+        <br>
+        <br>
+        <a href=""> Smartwatches</a>
+        <br>
+        <br>
+        <a href="">Accessories</a>
+        <Br>
+            <br>
+        <a href="">Tablet Accessories</a>
+        <br>
+        <a href="">Mobile Accessories</a>
+        <br>
+        <a href="">Memory card</a>
+        <br>
+        <a href="">Charger cord</a>
+</div>
+    <div>
+        <a href="">Headphones</a>
+        <br>
+<br>
+        <a href="">Tablet and e-reader</a>
+        <br>
+
+        <a href="">Everyday use Tablet below 15000</a>
+        <br>
+        <a href="">Premium Tablet</a>
+        <br>
+        <br>
+        <a href="">Power Bank</a>
+    </div>
+    <div>
+       <img src="./image/mobiledropdownmenu.png" alt="">
+    </div>
+   
+
+   </div>
+
+
 
    
     <div id="main-cont">
@@ -457,6 +540,8 @@
 
 </body>
 
-
 </html>
+          <script src="./script/navbar.js"></script>
 <script src="./index.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+
