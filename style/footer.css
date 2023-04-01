@@ -2,6 +2,8 @@ footer {
     height: auto;
     width: 100%;
     background-color: #1f4985;
+    /* margin-top: 100%; */
+    /* display: block; */
 }
 
 footer>div:nth-child(1) {

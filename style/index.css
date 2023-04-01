@@ -147,7 +147,7 @@
             width: calc(90vw / 5);
             padding: 10px;
             /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+           
           }
           .slide-product > div > img {
             width: 100%;
@@ -258,9 +258,13 @@
             border: none;
           }
           .product_catagory > button:hover {
-            background-color: white;
+            background-color: rgb(115, 112, 112);
             color: black;
             border: 1px solid #003380;
+          }
+          .product_catagory > button > a{
+            color: rgb(242, 238, 238);
+            text-decoration: none;
           }
           /* Style for four arrow buttons */
           .four_arrow > button {
