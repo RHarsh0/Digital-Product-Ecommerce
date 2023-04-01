@@ -1,6 +1,52 @@
-
-
-
+/* 
+        body{
+          background-color: white;
+        } */
+        /* Style for upper nav */
+        /* div#upper_nav {
+            width: 100%;
+            height: auto;
+            border: 1px solid black;
+            background-color: #e4252a;
+            position: sticky;
+            display: flex;
+            justify-content: flex-end;
+          } */
+          /* div#upper_nav > a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 10px;
+            font-size: 1.1vw;
+            font-weight: bold;
+          }
+          div#upper_nav > a:nth-child(2)::before {
+            content: "";
+            border: 1px solid white;
+            margin-right: 5px;
+          }
+          div#upper_nav > a:nth-child(2)::after {
+            content: "";
+            border: 1px solid white;
+            margin-left: 5px;
+          } */
+          
+          .contnav{
+            display: none;
+           width: 1300px;
+           height: max-content;
+            position: absolute;
+            z-index: 11;
+            margin-left: 100px;
+            padding: 20px 40px 20px 40px;
+        }
+        .contnav>div{
+          display: flex;
+          justify-content: space-evenly;
+        }
+        .container:hover .contnav{
+          display: block;
+          color:#3E5962;
+        }
           /* main page style */
           #main-cont > div:nth-child(1) > img {
             width: 100%;
@@ -101,7 +147,7 @@
             width: calc(90vw / 5);
             padding: 10px;
             /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+           
           }
           .slide-product > div > img {
             width: 100%;
@@ -204,7 +250,6 @@
           .product_catagory > button {
             display: block;
             margin: auto;
-            margin-top: 10px;
             height: 40px;
             width: 100px;
             border-radius: 20px;
