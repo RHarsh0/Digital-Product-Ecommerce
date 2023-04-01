@@ -279,3 +279,34 @@ for (let i = 0; i < brand.length; i++) {
 }
 
 
+// <---------min max filter------->
+// function filter(data){
+
+//   let min =document.getElementById("min")
+//   let max =document.getElementById("max")
+
+//   let gobtn=document.getElementById("gobtn");
+
+
+//   gobtn.addEventListener("click",(ev) => {
+//     ev.preventDefault()
+
+//     if(min.value>max.value){
+//       alert("Please Enter a valid Range")
+//     }
+//     else{
+//       document.getElementById("products").innerHTML="";
+
+//     let filtered =data.filter(element => {
+
+//       if(element.price >=min.value && element.price <=max.value){
+//         return element
+//       }
+
+//     })
+//     showdata(filtered)
+//     }
+    
+//   })
+//   showdata(data)
+// }

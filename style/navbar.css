@@ -142,9 +142,9 @@ body {
     padding: 0px;
     font-family: "PT Sans", sans-serif;
   }
-  #navbar {
-    /* display: none; */
-  }
+  /* #navbar {
+    display: none;
+  } */
   #mobilenav {
     background-color: #e42529;
     padding-top: 20px;
