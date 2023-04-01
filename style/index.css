@@ -1,4 +1,7 @@
-
+/* 
+        body{
+          background-color: white;
+        } */
         /* Style for upper nav */
         /* div#upper_nav {
             width: 100%;
@@ -26,9 +29,24 @@
             border: 1px solid white;
             margin-left: 5px;
           } */
-
-
-
+          
+          .contnav{
+            display: none;
+           width: 1300px;
+           height: max-content;
+            position: absolute;
+            z-index: 11;
+            margin-left: 100px;
+            padding: 20px 40px 20px 40px;
+        }
+        .contnav>div{
+          display: flex;
+          justify-content: space-evenly;
+        }
+        .container:hover .contnav{
+          display: block;
+          color:#3E5962;
+        }
           /* main page style */
           #main-cont > div:nth-child(1) > img {
             width: 100%;
