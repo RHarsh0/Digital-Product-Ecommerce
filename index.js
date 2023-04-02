@@ -1,3 +1,15 @@
+let userInfo = JSON.parse(localStorage.getItem("info"));
+// console.log(userInfo);
+
+if(userInfo){
+  let k = userInfo[userInfo.length-1];
+  // console.log(k,"eee");
+  document.getElementById("logname").innerHTML = `|<a href="signup/signup.html"> <i class="fa fa-user header__maininfo__list__item__icon"></i>
+  <span>${k.nameob}</span> </a>`;
+}
+
+// displaying the name of login user 
+
 let sliderLink1 = [
   "https://www.reliancedigital.in/medias/Samsung-Galaxy-M52-Desktop-20.06.jpg?context=bWFzdGVyfGltYWdlc3wxMDgyNjF8aW1hZ2UvanBlZ3xpbWFnZXMvaDRmL2gwYy85ODYxOTc2NDkwMDE0LmpwZ3w5N2EzMDE4MWQ4ZTI5MmE1NDRkNjRlODJkYWNhNjJkYzQ5YzBiMDdjMThhYjhkOWU2MTAyM2YzZGQxNWIyYzk0",
   "https://www.reliancedigital.in/medias/Lenovo-Laptops-Desktop-15.07.jpg?context=bWFzdGVyfGltYWdlc3wxMzExODR8aW1hZ2UvanBlZ3xpbWFnZXMvaDY5L2hiMC85ODYyMjA3MDQ1NjYyLmpwZ3w1MmIyMzI0MmY3NzJkYjI2YTI5NTdkZDMwYmUyMmQxZDIyMGY0MWI5OWM2ZTJhNzIxMDgyZjUxY2YyZTdmNzA5",
