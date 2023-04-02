@@ -88,7 +88,7 @@ body {
 #thirdnav {
   display: flex;
   justify-content: space-evenly;
-  /* width: 100%; */
+  width: 100%;
   font-size: 12px;
   font-weight: 700;
   background-color: #003380;
