@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Alliencdigital</title>
+
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+  
+    <link rel="icon" href="/favicon.icog" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  
+    <title>Cart you!</title>
+</head>
+<body>
+    <!-- --------------------------navbar section----------------------------- -->
+    <div id="navbar">
+        <div class="firstnav">
+    
+          <a href="./map.html">Find a store </a>
+          <a href="ADMIN/signin/signin.html"><span> | </span>Admin </a>
+    
+          <a href="mailto: customersupport@Allience.Tech"><span> | </span> Contact us </a>
+        </div>
+        <div id="secondnav">
+          <div id="logo"><a href="./index.html"><img src="./image/Allince.jpeg" alt=""></a></div>
+          <div id="searchbar">
+            <input type="text" placeholder="Find your favourite products">
+            <button>
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+          <div>
+            <div id="cartlogin">
+              <div class="pinnumber">Select your Pin Code</div>
+              <div>|<a href="./cart.html"><i class="fa fa-shopping-cart header_maininfo_list_item_icon"></i> <span>Cart</span> <a></a></div>
+              <div id="logname">|<a href="signup/signup.html"> <i class="fa fa-user header__maininfo__list__item__icon"></i>
+                  <span>Login</span> </a></div>
+            </div>
+          </div>
+    
+        </div>
+        <div class="container">
+          <div id="thirdnav">
+            <div><a href="">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">AUDIO</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></div>
+          </div>
+    
+          <div class="contnav" style="background-color: #FFFFFF;">
+            <div>
+              <div>
+                <h4>Smartwatches</h4>
+                <h4>Smartphones</h4>
+                <h4>Accessories</h4>
+                <p>Tablet Accessories</p>
+                <p>Mobile Accessories</p>
+                <p>Mobile Grips and stands</p>
+                <p>Memory cards</p>
+                <p>Cables & Cords</p>
+                <p>Chargers and Adapters</p>
+    
+              </div>
+              <div>
+                <h4>Televisions</h4>
+                <p>Smart TVs</p>
+                <p>32 Inch TVs</p>
+                <p>43 Inch TVs</p>
+                <p>55 Inch TVs</p>
+                <p>Android TVs</p>
+              </div>
+              <div>
+                <h4>Headphones and Headsets</h4>
+                <p>True Wireless</p>
+                <p>Bluetooth Neckbands</p>
+                <p>Wired Earphones</p>
+                <p>On Ear Headphones</p>
+                <p>On Ear Headphones</p>
+                <p>Noise Cancelling Headphones</p>
+                <h4>Bluetooth and Wifi Speakers</h4>
+                <p>Bluetooth Speakers</p>
+                <p>Smart Speakers</p>
+              </div>
+              <div>
+                <h4>Air Conditioner</h4>
+                <p>Split Air Conditioners</p>
+                <p>Window Air Conditioners</p>
+                <p>Smart Air Conditioners</p>
+                <p>Energy Efficient Conditioners</p>
+                <p>1 ton Air Conditioners</p>
+                <p>1.5 ton Air Conditioners</p>
+                <p>5 star Air Conditioners</p>
+                <h4>Air Coolers</h4>
+                <h4>Air Purifiers</h4>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+    
+        <!-- hamberger menu -->
+        <div id="mobilenav">
+          <div id="hamburgerbutton">
+            <div id="navigation">
+              <div id="menuk" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+              </div>
+              <ul class="navk" id="navk">
+                <li><a href="">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">AUDIO</a><i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></li>
+                <li><a href="">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></li>
+              </ul>
+    
+            </div>
+            <div id="mobilelogok"><img src="./image/Allince.jpeg" alt=""></div>
+            <div><i id="cartlogo" class="fa fa-shopping-cart header_maininfo_list_item_icon"></i> <span></span> </div>
+            <div><i id="loginlogo" class="fa fa-user header__maininfo__list__item__icon"></i> <span></span> </div>
+          </div>
+          <div id="mobilesearchbar">
+            <input type="text" placeholder="Find your favourite products">
+            <button>
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div id="foronlycolor"></div>
+        <!-- drop down menu -->
+        <div class="dropdownMenu">
+          <div class="dropdownmobile"><a href="">Smartphone</a>
+            <br>
+            <br>
+            <a href=""> Smartwatches</a>
+            <br>
+            <br>
+            <a href="">Accessories</a>
+            <Br>
+            <br>
+            <a href="">Tablet Accessories</a>
+            <br>
+            <a href="">Mobile Accessories</a>
+            <br>
+            <a href="">Memory card</a>
+            <br>
+            <a href="">Charger cord</a>
+          </div>
+          <div>
+            <a href="">Headphones</a>
+            <br>
+            <br>
+            <a href="">Tablet and e-reader</a>
+            <br>
+    
+            <a href="">Everyday use Tablet below 15000</a>
+            <br>
+            <a href="">Premium Tablet</a>
+            <br>
+            <br>
+            <a href="">Power Bank</a>
+          </div>
+          <div>
+            <img src="./image/mobiledropdownmenu.png" alt="">
+          </div>
+    
+    
+        </div>
+      </div>
+<!-- -----------------navbar section ends here----------------- -->
+
+
+   <main>
+    <div id="card_list_render"></div>
+   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -------------------footer part----------------------- -->
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <ul>
+                        PRODUCT CATEGORIES
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">DSLR Cameras</a></li>
+                        <li><a href="#">Televisions</a></li>
+                        <li><a href="#">Air conditioners</a></li>
+                        <li><a href="#">Refrigerators</a></li>
+                        <li><a href="#">Kitchen Applinces</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Personal Care and & Grooming</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        SITE INFO
+                        <li><a href="#">About Reliance Digital</a></li>
+                        <li><a href="#">resQ Services</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Corporate Enquires</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        RESOURCE CENTRE
+                        <li><a href="#">Product Reviews</a></li>
+                        <li><a href="#">Buying Guidesa</li>
+                        <li><a href="#">How Tos</a></li>
+                        <li><a href="#">Featured Stories</a></li>
+                        <li><a href="#">Events and Happenings</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        POLICIES
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Cancellation and return policy</a></li>
+                        <li><a href="#">Pricing and payment policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">E-waste policy</a></li>
+                        <li><a href="#">EMI and additional cashback T&C</a></li>
+                        <li><a href="#">RelianceOne Loyalty Program T&C</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="social-hand">
+                <div>
+                    <h3>FOLLOW US</h3>
+                    <!-- <a href="http://www.facebook.com/pages/Reliance-Digital/123437217685421"><i class="fa-brands fa-facebook-square"></i></a>
+              <a href="http://www.twitter.com/reliancedigital"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.youtube.com/reliancedigital"><i class="fa-brands fa-youtube"></i></a> -->
+                </div>
+                <div>
+                    <h3>EXPERIENCE RELIANCE DIGITAL APP ON MOBILE</h3>
+                    <a href="https://play.google.com/store/apps/details?id=in.digital.reliance"><img
+                            src="https://www.reliancedigital.in/build/client/images/google_play_store.png"></a>
+                    <a href="https://apps.apple.com/in/app/reliance-digital-shopping-app/id1513379107"><img
+                            src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Disclamer porton -->
+        <div id="discl">
+            <p>Disclaimer</p>
+            <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive
+                of taxes. Product colours & images are only for illustration and they may not exactly match with the
+                actual product. Product specs are subject to change & may vary from actual product. While every care is
+                taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+            <p>&copy 2022 Reliance Digital. All Rights Reserved.</p>
+        </div>
+    </footer>
+<!-- ------------------------------footer ends here--------------------------------- -->
+</body>
+</html>
+<script src="./script/navbar.js"></script>
+<script>
+    let cartdata = JSON.parse(localStorage.getItem("cart")) || [];
+    let cardcont = document.getElementById("card_list_render")
+    console.log(cartdata);
+// cartdata.forEach((el)=>{console.log(el)})
+
+    function cards(data){
+        cartdata.forEach(element => {
+            let c = 0;
+            let cntcont = document.createElement("div");
+            let card = document.createElement("div");
+            let name = document.createElement("h3");
+            name.innerText = element.name;
+            let img = document.createElement("img");
+            img.src = element.image;
+            let price = document.createElement("p");
+            price.innerText = element.price;
+            let desc = document.createElement("p");
+            desc.innerText = element.desc;
+            let brand = document.createElement("p");
+            brand.innerText = element.brand;
+            let count = document.createElement("p");
+            count.innerText = c;
+            let addbtn = document.createElement("button");
+            addbtn.innerText = "+";
+            let subbtn = document.createElement("button");
+            subbtn.innerText = "-";
+            addbtn.addEventListener("click",function(){
+                c++;
+                count.innerText = c;
+            })
+            subbtn.addEventListener("click",function(){
+                c--;
+                count.innerText = c;
+            })
+            // console.log(img,name,price,desc,brand);
+            cntcont.append(subbtn,count,addbtn)
+            card.append(img,name,brand,price,desc,cntcont);
+            cardcont.append(card);
+        });
+        console.log(cardcont);
+    }
+    cards(cartdata)
+//     function cardlist(cartdata){
+//         let lists = `<span>
+//             ${cartdata.map((el)=>cards(el.image,el.name,el.price,el.desc,el.brand)).join(" ")}
+//             </span>`
+//      cardcont.innerHTML = lists
+//     }
+
+// cardlist(cartdata)
+
+//     function cards(img,name,price,desc,brand){
+//         let card = `<div>
+//             <img src="${img}">
+//             <h3>${name}</h3>
+//             <p>${desc}</p>
+//             <p>${price}</p>
+//             <p>${brand}</p>
+//             </div>`
+//             return card
+//     }
+</script>
