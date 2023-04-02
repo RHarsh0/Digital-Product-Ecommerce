@@ -1,3 +1,14 @@
+let userInfo = JSON.parse(localStorage.getItem("info"));
+// console.log(userInfo);
+
+if(userInfo){
+  let k = userInfo[userInfo.length-1];
+  // console.log(k,"eee");
+  document.getElementById("logname").innerHTML = `|<a href="signup/signup.html"> <i class="fa fa-user header__maininfo__list__item__icon"></i>
+  <span>${k.nameob}</span> </a>`;
+}
+
+
 let API = "https://63c66f314ebaa8028545abad.mockapi.io/device/"
 
 let filteredProducts = [];
