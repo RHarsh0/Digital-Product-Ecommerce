@@ -53,6 +53,7 @@ function showdata(data) {
 
         btn.addEventListener("click", () => {
             cartdata.push(element)
+            btn.innerText = "Added to Cart"
 
             localStorage.setItem("cart",JSON.stringify(cartdata))
         })
