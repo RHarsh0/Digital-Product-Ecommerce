@@ -88,7 +88,7 @@ body {
 #thirdnav {
   display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  /* width: 100%; */
   font-size: 12px;
   font-weight: 700;
   background-color: #003380;
@@ -136,7 +136,7 @@ body {
 
 /* hover and dropdow */
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
   body {
     margin: 0px;
     padding: 0px;
@@ -285,11 +285,17 @@ body {
     justify-content: center;
     margin-left: -50px;
   }
+  /* .container{
+    display: none;
+  } */
 }
 @media only screen and (min-width: 851px) {
   #mobilenav {
     display: none;
   }
+  /* .container{
+    display: none;
+  } */
   /* .dropdownMenu{
       display: none;
     } */
