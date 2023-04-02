@@ -215,6 +215,9 @@
           .grid > div > img {
             width: 100%;
           }
+
+        
+
           /* Style for third arrow buttons */
           .third_arrow > button {
             position: absolute;
@@ -247,13 +250,26 @@
             text-align: center;
             margin: auto;
           }
+          .slide-product > div > button{
+            /* text-decoration: none; */
+            /* color: #3E5962; */
+            background-color: #e9110d;
+            border: none;
+            border-radius: 5px;
+            /* background-color: aqua; */
+          }
+          .slide-product > div > button > a{
+            text-decoration: none;
+            color: #3E5962;
+            /* background-color: aqua; */
+          }
           .product_catagory > button {
             display: block;
             margin: auto;
             height: 40px;
             width: 100px;
             border-radius: 20px;
-            background-color: #003380;
+            background-color: #e23c26;
             color: white;
             border: none;
           }
@@ -416,4 +432,35 @@
           }
           .eleven_arrow > button:nth-child(2) {
             right: 2%;
+          }
+
+          @media only screen and (max-width: 751px) {
+            .slide-product > div {
+              height: 100%;
+              width: calc(90vw / 2);
+              padding: 10px;
+              /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+             
+            }
+            .grid{
+              grid-template-rows: repeat(1, auto);
+              grid-template-columns: repeat(2, 1fr);
+            }
+            
+          }
+
+          @media only screen and (max-width: 551px) {
+            .slide-product > div {
+              height: 100%;
+              width: calc(90vw / 1);
+              padding: 10px;
+              /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+             
+            }
+            .grid{
+              grid-template-rows: repeat(1, auto);
+              grid-template-columns: repeat(2, 1fr);
+
+            }
+            
           }
