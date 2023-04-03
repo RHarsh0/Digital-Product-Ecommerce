@@ -5,7 +5,7 @@
 ![Allince](https://user-images.githubusercontent.com/119388397/229410104-be78f1ed-0b9e-4eab-ade7-45297fffd1ea.jpeg)
 
 
-An E-comerce apllication which provides world class products to consumer.
+# An E-comerce apllication which provides world class products to consumer.
 This is the clone of reliance digital web application.
 
 1) Developed for mass
@@ -14,7 +14,7 @@ This is the clone of reliance digital web application.
 
 
 
-#FEATURES
+# FEATURES
      User Interface
 1) Signin and Signup pages
 2) Landing Page
