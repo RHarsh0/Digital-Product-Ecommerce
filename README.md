@@ -71,5 +71,7 @@ JavaScript - Used it for the backend implementation.
 ![image](https://user-images.githubusercontent.com/119388397/229412619-8750d805-4b15-4434-89b8-dc53c655c757.png)
 
 
+# Deployed Netlify link
 
+https://inspiring-tanuki-e43c22.netlify.app/
 
