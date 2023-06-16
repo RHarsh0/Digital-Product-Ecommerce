@@ -26,7 +26,7 @@ This is the clone of reliance digital web application.
      Admin Login
  CRUD operationn on Products enabled
  
- #Tech Stack
+ # Tech Stack
  
 Reliance Digital uses a number of open source technologies to work properly:
 
